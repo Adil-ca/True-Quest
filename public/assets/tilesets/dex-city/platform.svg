@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="48" viewBox="0 0 128 48">
+<defs>
+ <linearGradient id="stone" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9b82c3"/><stop offset=".48" stop-color="#69518f"/><stop offset="1" stop-color="#3e315e"/></linearGradient>
+ <linearGradient id="grass" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#eeffc5"/><stop offset=".42" stop-color="#b9e99a"/><stop offset="1" stop-color="#74bd8b"/></linearGradient>
+</defs>
+<!-- soft top rim and irregular turf silhouette -->
+<path d="M1 8Q7 4 15 7q8-8 17-2 8-7 17 0 9-6 18 1 9-7 17-1 9-6 17 1 10-7 19 0 9-5 16 2 4-2 10 1v11H1Z" fill="url(#grass)" stroke="#476b5d" stroke-width="2"/>
+<path d="M4 14h120" stroke="#f4ffd6" stroke-width="3" stroke-linecap="round" opacity=".86"/>
+<path d="M2 18q12-4 24 0 12-3 25 0 13-4 26 0 12-3 25 0 12-4 24 0v24q-7 5-15 0-8 5-16 0-9 6-18 0-9 6-18 0-8 6-17 0-9 6-18 0-8 5-16 0-8 5-16 0Z" fill="url(#stone)" stroke="#36264f" stroke-width="2"/>
+<!-- hand-cut chunky stone faces -->
+<path d="m5 20 23-1 8 9-8 10-23-1Zm34-1 28 1-6 10-20 0Zm32 1 18-1 10 10-8 9-22-1Zm34-1 18 2 1 15-18 1-8-10Z" fill="#b49bd7" opacity=".28" stroke="#e0d0f6" stroke-opacity=".36" stroke-width="1.4"/>
+<path d="M3 29h122M31 19v9m38 1v10m35-11v-9M18 29v12m40-11h16m27 1h12" fill="none" stroke="#33254d" stroke-width="2" opacity=".7"/>
+<path d="m13 8 3-7 4 7m20 2 3-5 3 5m45-2 3-7 3 7m24 2 2-5 4 5" fill="#65b982" stroke="#467956" stroke-width="1" stroke-linejoin="round"/>
+<path d="m10 24 8-3m45 17 8-3m42-9 7-3M9 38q5-4 10 0" stroke="#e7d6fa" stroke-opacity=".72" stroke-width="2" stroke-linecap="round"/>
+<circle cx="28" cy="23" r="1.7" fill="#f6d58a"/><circle cx="98" cy="37" r="1.5" fill="#c6edff"/>
+</svg>
